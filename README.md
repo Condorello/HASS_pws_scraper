@@ -7,7 +7,7 @@ You can find he's works here: https://github.com/danieldotnl/hass-multiscrape
 
 I edited the name of the plugin, so you can have both running on the same Hass instance.
 
-For using this componente download and copy the pws_scrape folder inside your custom_component folder and restart HomeAssistant.
+For using this component download and copy the pws_scrape folder inside your custom_component folder and restart HomeAssistant.
 Later add the value of the sensor you want in configuration.yaml, for example:
 
 sensor:
