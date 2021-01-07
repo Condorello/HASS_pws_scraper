@@ -2,7 +2,7 @@
 HomeAssistant scraper for weather station based on ObserverIP box (es. FineOffset, Ambient Weather, Aercus etc).
 
 
-This is a very slightly modified version of the Multiscrape custom_component from @danieldotnl.
+This is a very slightly modified version of the Multiscrape custom_component from @danieldotnl. I've just parsed the retrive datas as pure text in BeautifoulSoup and extract the sensor value inside the script instead from value_template param.
 You can find he's works here: https://github.com/danieldotnl/hass-multiscrape
 
 I edited the name of the plugin, so you can have both running on the same Hass instance.
