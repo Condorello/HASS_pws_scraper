@@ -10,6 +10,8 @@ I edited the name of the plugin, so you can have both running on the same Hass i
 For using this component download and copy the pws_scrape folder inside your custom_component folder and restart HomeAssistant.
 Later add the value of the sensor you want in configuration.yaml, for example:
 
+
+```yaml
 sensor:
   - platform: pws_scrape
     name: pws_scrape
@@ -38,6 +40,6 @@ sensor:
         name: Solar Radiation
         select: "tr:nth-of-type(17) input"
         unit_of_measurement: 'w/m2'
-        
-        
+```    
+
 You can add also the other element you see in the livedata.html page of the ObserverIP, just add other "selectors" as above adapting the select element number
