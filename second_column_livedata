@@ -1,0 +1,7 @@
+input:nth-child(2)
+
+0   <input name="inBattSta" disabled type="text" class="item_2" style="WIDTH: 100px" value="- -" maxlength="12">
+1   <input name="outBattSta1" disabled type="text" class="item_2" style="WIDTH: 100px" value="Normal" maxlength="12">
+2   <input name="outBattSta2" disabled type="text" class="item_2" style="WIDTH: 100px" value="- -" maxlength="12">
+3   <input name="Cancel" type="reset" class="item_2" style="WIDTH: 60px; HEIGHT: 24px;" value="Cancel">
+4   <input id="refresh_st" type="button" class="item_4" style="WIDTH: 110px; HEIGHT: 24px;" onclick="uiCtrl(this.value);" value="Refresh">
