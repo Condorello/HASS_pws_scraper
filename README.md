@@ -43,11 +43,11 @@ sensor:
         select: "tr:nth-of-type(17) input"
         unit_of_measurement: 'w/m2'
       rain_rate:
-        name: Pluviometro
+        name: Rain Gauge
         select: "tr:nth-of-type(21) input"
         unit_of_measurement: 'mm/h'
       rain_event:
-        name: Precipitazioni
+        name: Precipitation
         select: "tr:nth-of-type(22) input"
         unit_of_measurement: 'mm/h'
 ```    
