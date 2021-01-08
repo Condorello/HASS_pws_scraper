@@ -144,7 +144,7 @@ async def async_setup_platform(hass, config, async_add_entities, discovery_info=
 
             try:
                 value_temp = result.select(select)[index]
-                value = re.findall(r'value="(\d+\.?\d+)"', str(value_temp))[0]
+                value = re.findall(r'value="(.+)"', str(value_temp))[0]
                 _LOGGER.debug("Sensor %s selected: %s", name, value)
             except IndexError as exception:
                 _LOGGER.error("Sensor %s was unable to extract data from HTML", name)
