@@ -1,0 +1,28 @@
+input:nth-child(1)
+
+0   <input name="CurrTime" disabled type="text" class="item_2" style="WIDTH: 120px" value="19:30 1/8/2021" maxlength="16">
+1   <input name="IndoorID" disabled type="text" class="item_2" style="WIDTH: 80px" value="0x--" maxlength="5">
+2   <input name="Outdoor1ID" disabled type="text" class="item_2" style="WIDTH: 80px" value="0x00035" maxlength="12">
+3   <input name="Outdoor2ID" disabled type="text" class="item_2" style="WIDTH: 80px" value="0x--" maxlength="12">
+4   <input name="inTemp" disabled type="text" class="item_2" style="WIDTH: 80px" value="--.-" maxlength="5">
+5   <input name="inHumi" disabled type="text" class="item_2" style="WIDTH: 80px" value="--" maxlength="3">
+6   <input name="AbsPress" disabled type="text" class="item_2" style="WIDTH: 80px" value="----" maxlength="6">
+7   <input name="RelPress" disabled type="text" class="item_2" style="WIDTH: 80px" value="----" maxlength="6">
+8   <input name="outTemp" disabled type="text" class="item_2" style="WIDTH: 80px" value="4.2" maxlength="5">
+9   <input name="outHumi" disabled type="text" class="item_2" style="WIDTH: 80px" value="76" maxlength="3">
+10  <input name="windir" disabled type="text" class="item_2" style="WIDTH: 80px" value="261" maxlength="5">
+11  <input name="avgwind" disabled type="text" class="item_2" style="WIDTH: 80px" value="0.0" maxlength="5">
+12  <input name="gustspeed" disabled type="text" class="item_2" style="WIDTH: 80px" value="0.0" maxlength="5">
+13  <input name="dailygust" disabled type="text" class="item_2" style="WIDTH: 80px" value="4.0" maxlength="5">
+14  <input name="solarrad" disabled type="text" class="item_2" style="WIDTH: 80px" value="0.00" maxlength="12">
+15  <input name="uvi" disabled type="text" class="item_2" style="WIDTH: 80px" value="0" maxlength="3">
+16  <input name="pm25out" disabled type="text" class="item_2" style="WIDTH: 80px" value="----" maxlength="8">
+17  <input name="pm25in" disabled type="text" class="item_2" style="WIDTH: 80px" value="0.0" maxlength="8">
+18  <input name="rainofhourly" disabled type="text" class="item_2" style="WIDTH: 80px" value="0.00" maxlength="8">
+19  <input name="eventrain" disabled type="text" class="item_2" style="WIDTH: 80px" value="0.00" maxlength="8">
+20  <input name="rainofdaily" type="text" class="item_2" style="WIDTH: 80px" value="1.20" maxlength="8">
+21  <input name="rainofweekly" type="text" class="item_2" style="WIDTH: 80px" value="2.70" maxlength="8">
+22  <input name="rainofmonthly" type="text" class="item_2" style="WIDTH: 80px" value="2.70" maxlength="8">
+23  <input name="rainofyearly" type="text" class="item_2" style="WIDTH: 80px" value="2.70" maxlength="8">
+24  <input name="Apply" type="submit" class="item_2" style="WIDTH: 60px; HEIGHT: 24px;" onclick="setSubmitType(1)" value="Apply">
+25  <input name="rain_Default" type="button" class="item_2" style="WIDTH: 110px; HEIGHT: 24px;" onclick="raindef()" value="Rain Rese
