@@ -12,6 +12,8 @@ Later add the value of the sensor you want in configuration.yaml, for example:
 
 
 ```yaml
+configuration.yaml
+
 sensor:
   - platform: pws_scrape
     name: pws_scrape
@@ -40,6 +42,36 @@ sensor:
         name: Solar Radiation
         select: "tr:nth-of-type(17) input"
         unit_of_measurement: 'w/m2'
+      rain_rate:
+        name: Pluviometro
+        select: "tr:nth-of-type(21) input"
+        unit_of_measurement: 'mm/h'
+      rain_event:
+        name: Precipitazioni
+        select: "tr:nth-of-type(22) input"
+        unit_of_measurement: 'mm/h'
 ```    
 
-You can add also the other element you see in the livedata.html page of the ObserverIP, just add other "selectors" as above adapting the select element number
+You can add also the other element you see in the livedata.html page of the ObserverIP, just add other "selectors" as above adapting the select element number.
+
+You can customize the icon related to the sensors created by the customize.yaml file, or trough the webgui Configuration -> Customizations. Here mine:
+
+
+```yaml
+customize.yaml
+
+sensor.rain_rate:
+  icon: mdi:weather-pouring
+sensor.rain_event:
+  icon: mdi:weather-rainy
+sensor.wind_avgspeed:
+  icon: mdi:weather-windy
+sensor.wind_gustspeed:
+  icon: mdi:weather-windy
+sensor.wind_direction:
+  icon: mdi:compass
+sensor.solar_radiation:
+  icon: mdi:white-balance-sunny
+sensor.humidity_outdoor:
+  icon: mdi:water
+```   
