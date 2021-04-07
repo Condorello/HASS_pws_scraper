@@ -1,6 +1,7 @@
 {
   "domain": "pws_scrape",
   "name": "PWS_Scrape",
+  "version": "1.0",
   "documentation": "https://github.com/Condorello/HASS_pws_scraper",
   "requirements": ["lxml", "beautifulsoup4==4.9.1"],
   "codeowners": ["@condorello"]
