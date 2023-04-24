@@ -1,3 +1,10 @@
+#### Project abandoned. This One Is better:
+
+https://github.com/Condorello/HASS_wu_interceptor
+
+###################
+
+
 # HASS_pws_scraper
 HomeAssistant scraper for weather station based on ObserverIP box (es. FineOffset, Ambient Weather, Aercus etc).
 
